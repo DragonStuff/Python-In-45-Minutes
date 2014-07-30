@@ -1,43 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
     <title>Python in 45 Minutes by DragonStuff</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
   </head>
+
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/DragonStuff/Python-In-45-Minutes">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/DragonStuff/Python-In-45-Minutes/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/DragonStuff/Python-In-45-Minutes/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
 
-    <div class="wrapper">
+    <header>
+      <div class="container">
+        <h1>Python in 45 Minutes</h1>
+        <h2>Teaching Python in 45 minutes? Challenge Accepted.</h2>
 
-      <section>
-        <div id="title">
-          <h1>Python in 45 Minutes</h1>
-          <p>Teaching Python in 45 minutes? Challenge Accepted.</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/DragonStuff">DragonStuff</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+        <section id="downloads">
+          <a href="https://github.com/DragonStuff/Python-In-45-Minutes/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/DragonStuff/Python-In-45-Minutes/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/DragonStuff/Python-In-45-Minutes" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
 
+    <div class="container">
+      <section id="main_content">
         <h3>
 <a name="so-today-youre-learning-python" class="anchor" href="#so-today-youre-learning-python"><span class="octicon octicon-link"></span></a>So today, you're learning Python.</h3>
 
@@ -56,11 +46,30 @@
 <img src="http://img.photobucket.com/albums/v625/lostncybr/Avatar/8ac4e8fc.jpg" alt=""></p>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="your-complementary-pip-boy-3000" class="anchor" href="#your-complementary-pip-boy-3000"><span class="octicon octicon-link"></span></a>Your complementary Pip-Boy 3000.</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p><img src="http://img3.wikia.nocookie.net/__cb20110809182235/fallout/images/c/c0/VaultBoyFO3.png" alt=""></p>
+
+<h2>
+<a name="get-your-nitrousio-account" class="anchor" href="#get-your-nitrousio-account"><span class="octicon octicon-link"></span></a>Get your Nitrous.io account</h2>
+
+<p><a href="https://www.nitrous.io/join/9rglqEXeoyw?utm_source=nitrous.io&amp;utm_medium=copypaste&amp;utm_campaign=referral">Press here to register for a Nitrous.io account.</a></p>
+
+<p><img src="http://i.imgur.com/crD3Dks.png" alt=""></p>
+
+<p>After logging into Nitrous.IO </p>
 
 <h3>
+<a name="some-rules-to-follow-when-saving-files" class="anchor" href="#some-rules-to-follow-when-saving-files"><span class="octicon octicon-link"></span></a>Some rules to follow when saving files.</h3>
+
+<ul>
+<li>
+<strong>Always save the program with the extension .py.</strong> Do not put another dot anywhere else in the file name.</li>
+<li>Only use standard characters for file names: letters, numbers, dash (-) and underscore (_).</li>
+<li>White space (" ") should not be used at all (<strong>use underscores</strong> instead).</li>
+<li>Do not use anything other than a letter (particularly no numbers!) at the beginning of a file name.</li>
+<li>Do not use "non-english" characters (such as ä, ö, ü, å or ß) in your file names—or, even better, do not use them at all when programming.</li>
+</ul><h3>
 <a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
 
 <p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
@@ -70,9 +79,8 @@
 
 <p>@0xdragon is the author of this document which was used for teaching a 2014 class Python in only 45 minutes.</p>
       </section>
-
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
     
   </body>
 </html>
