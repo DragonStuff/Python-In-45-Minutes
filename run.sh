@@ -12,6 +12,8 @@ echo "Removing the downloaded zip file..."
 rm examples.zip
 echo "Examples ready, done..."
 echo "Dropping you into a shell with Python 3 set to default..."
-source . ~/py3env/bin/activate
+source ~/py3env/bin/activate
+echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 echo "Done. Please close this console and open a new one!"
-exit
+echo "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
+clear && . ~/py3env/bin/activate
