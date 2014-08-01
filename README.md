@@ -11,5 +11,3 @@ cd workspace/Python-In-45-Minutes/
 chmod +x run.sh
 
 ./run.sh
-
-source ~/py3env/bin/activate
